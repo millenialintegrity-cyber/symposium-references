@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>References — 뇌성마비 심포지엄 강의자료</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: 'Apple SD Gothic Neo', 'Malgun Gothic', 'Segoe UI', sans-serif;
+  background: #f0f3f8;
+  padding: 40px 24px;
+  color: #222;
+}
+
+.page {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* 상단 제목 */
+.page-header {
+  background: #2C4172;
+  border-radius: 10px 10px 0 0;
+  border-bottom: 4px solid #E86A1A;
+  padding: 18px 28px;
+  margin-bottom: 0;
+}
+.page-header h1 {
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+.page-header p {
+  color: rgba(255,255,255,0.65);
+  font-size: 11.5px;
+}
+
+/* 섹션 */
+.section {
+  background: white;
+  border-left: 1px solid #e0e4ee;
+  border-right: 1px solid #e0e4ee;
+  padding: 0;
+}
+.section:last-child {
+  border-radius: 0 0 10px 10px;
+  border-bottom: 1px solid #e0e4ee;
+  overflow: hidden;
+}
+
+.section-header {
+  padding: 10px 28px;
+  font-size: 11.5px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  border-bottom: 1px solid #eef0f6;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.section-header.s1  { background: #eef2fa; color: #2C4172; }
+.section-header.s2  { background: #edfaf0; color: #1a5c2e; }
+.section-header.s3  { background: #fff8ee; color: #7a4000; }
+.section-header.s4  { background: #fdf0ff; color: #5a1a7a; }
+.section-header.s5  { background: #fff0f0; color: #7a1a1a; }
+.section-header.s6  { background: #f0f8ff; color: #1a4a72; }
+.section-header.s7  { background: #f0fff4; color: #1a5c2e; }
+.section-header.s8  { background: #fffbf0; color: #6b4400; }
+
+.ref-list {
+  list-style: none;
+  padding: 8px 0;
+}
+
+.ref-item {
+  display: flex;
+  gap: 14px;
+  padding: 8px 28px;
+  border-bottom: 1px solid #f5f6fa;
+  align-items: flex-start;
+  transition: background 0.15s;
+}
+.ref-item:last-child { border-bottom: none; }
+.ref-item:hover { background: #fafbff; }
+
+.ref-num {
+  min-width: 28px;
+  height: 28px;
+  background: #2C4172;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  font-weight: 700;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+.ref-content { flex: 1; }
+
+.ref-authors {
+  font-size: 12.5px;
+  color: #333;
+  line-height: 1.55;
+  margin-bottom: 2px;
+}
+.ref-authors .author-hl {
+  font-weight: 700;
+  color: #2C4172;
+}
+
+.ref-journal {
+  font-size: 11.5px;
+  color: #666;
+  font-style: italic;
+}
+.ref-journal .journal-hl {
+  font-weight: 600;
+  color: #444;
+  font-style: normal;
+}
+
+.ref-doi {
+  display: inline-block;
+  margin-top: 3px;
+  font-size: 10.5px;
+  color: #2E7AB4;
+  text-decoration: none;
+  word-break: break-all;
+}
+.ref-doi:hover { text-decoration: underline; }
+
+/* 슬라이드 태그 */
+.slide-tag {
+  display: inline-block;
+  font-size: 9.5px;
+  font-weight: 700;
+  padding: 1px 7px;
+  border-radius: 8px;
+  margin-left: 6px;
+  background: #e8eeff;
+  color: #2C4172;
+  vertical-align: middle;
+}
+
+/* 푸터 */
+.footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 11px;
+  color: #999;
+}
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="page-header">
+    <h1>📚 발표 슬라이드 참고문헌</h1>
+    <p>뇌성마비 심포지엄 강의자료 · References by slide number</p>
+  </div>
+
+  <!-- ─── 섹션 1 ─── -->
+  <div class="section">
+    <div class="section-header s1">
+      📊 슬라이드 4–5 &nbsp;·&nbsp; 골다공증 정의 및 성인 AI 연구
+    </div>
+    <ul class="ref-list">
+
+      <li class="ref-item">
+        <div class="ref-num">1</div>
+        <div class="ref-content">
+          <div class="ref-authors">Yang X, Liu J, Huang X, et al. Machine Learning-Driven Clinical Decision Support for Low Bone Mineral Density: A Web-Based Prediction Model With Explainable AI Integration.</div>
+          <div class="ref-journal"><span class="journal-hl">Bone.</span> 2025;:117592.</div>
+        </div>
+      </li>
+
+      <li class="ref-item">
+        <div class="ref-num">2</div>
+        <div class="ref-content">
+          <div class="ref-authors">Zhang Y, Ma M, Huang X, et al. Machine Learning Is Changing Osteoporosis Detection: An Integrative Review.</div>
+          <div class="ref-journal"><span class="journal-hl">Osteoporosis International.</span> 2025. </div>
+          <a class="ref-doi" href="https://doi.org/10.1007/s00198-025-07541-x" target="_blank">doi: 10.1007/s00198-025-07541-x</a>
+        </div>
+      </li>
+
+      <li class="ref-item">
+        <div class="ref-num">3</div>
+        <div class="ref-content">
+          <div class="ref-authors">Smets J, Shevroja E, Hügle T, Leslie WD, Hans D. Machine Learning Solutions for Osteoporosis—a Review.</div>
+          <div class="ref-journal"><span class="journal-hl">Journal of Bone and Mineral Research.</span> 2021;36(5):833–851.</div>
+        </div>
+      </li>
+
+      <li class="ref-item">
+        <div class="ref-num">4</div>
+        <div class="ref-content">
+          <div class="ref-authors">Shao Z, Wu J, Deng Q, et al. Development of a Machine Learning-Based Predictive Model for Osteoporosis Risk and Its Application in Clinical Decision Support.</div>
+          <div class="ref-journal"><span class="journal-hl">Frontiers in Medicine.</span> 2025;12:1680731.</div>
+        </div>
+      </li>
+
+      <li class="ref-item">
+        <div class="ref-num">5</div>
+        <div class="ref-content">
+          <div class="ref-authors">Liu L, Si M, Ma H, et al. A Hierarchical Opportunistic Screening Model for Osteoporosis Using Machine Learning Applied to Clinical Data and CT Images.</div>
+          <div class="ref-journal"><span class="journal-hl">BMC Bioinformatics.</span> 2022;23(1):63.</div>
+        </div>
+      </li>
+
+      <li class="ref-item">
+        <div class="ref-num">6</div>
+        <div class="ref-content">
+          <div class="ref-authors">Paderno A, Ataide Gomes EJ, Gilberg L, et al. Artificial Intelligence-Enhanced Opportunistic Screening of Osteoporosis in CT Scan: A Scoping Review.</div>
+          <div class="ref-journal"><span class="journal-hl">Osteoporosis International.</span> 2024;35(10):1681–1692.</div>
+        </div>
+      </li>
+
+      <li class="ref-item">
+        <div class="ref-num">7</div>
+        <div class="ref-content">
+          <div class="ref-authors">Huang CF, Fang WH, Chen KH, et al. Consensus Statement on the Application of Artificial Intelligence in Osteoporosis Screening and Management: Perspectives From the Asia-Pacific Region.</div>
+          <div class="ref-journal"><span class="journal-hl">Osteoporosis International.</span> 2026.</div>
+          <a class="ref-doi" href="https://doi.org/10.1007/s00198-026-08067-6" target="_blank">doi: 10.1007/s00198-026-08067-6</a>
+        </div>
+      </li>
+
+      <li class="ref-item">
+        <div class="ref-num">8</div>
+        <div class="ref-content">
+          <div class="ref-authors">Abrar M, Fatima S, Tiwana MI, Shahid A, Shaid F. Optimizing Osteoporosis Pre-Screening (OOPS) Through AI-driven Models and Validation in the Asian Population.</div>
+          <div class="ref-journal"><span class="journal-hl">Journal of Clinical Densitometry.</span> 2026;29(2):101669.</div>
+        </div>
+      </li>
+
+    </ul>
+  </div>
+
+  <!-- ─── 섹션 2 ─── -->
+  <div class="section">
+    <div class="section-header s2">
+      🧒 슬라이드 6 &nbsp;·&nbsp; 소아 골건강의 중요성
+    </div>
+    <ul class="ref-list">
+
+      <li class="ref-item">
+        <div class="ref-num">9</div>
+        <div class="ref-content">
+          <div class="ref-authors">Stokes G, et al. Bone Health—Across a Woman's Lifespan.</div>
+          <div class="ref-journal"><span class="journal-hl">Clinical Endocrinology.</span> 2024;102:389–402.</div>
+        </div>
+      </li>
+
+    </ul>
+  </div>
+
+  <!-- ─── 섹션 3 ─── -->
+  <div class="section">
+    <div class="section-header s3">
+      🦴 슬라이드 8–9 &nbsp;·&nbsp; 소아 골다공증 진단 기준 및 특수성
+    </div>
+    <ul class="ref-list">
+
+      <li class="ref-item">
+        <div class="ref-num">10</div>
+        <div class="ref-content">
+          <div class="ref-authors">Ward LM, Weber DR, Munns CF, Högler W, Zemel BS. A Contemporary View of the Definition and Diagnosis of Osteoporosis in Children and Adolescents.</div>
+          <div class="ref-journal"><span class="journal-hl">The Journal of Clinical Endocrinology and Metabolism.</span> 2020;105(5):dgz294.</div>
+        </div>
+      </li>
+
+      <li class="ref-item">
+        <div class="ref-num">11</div>
+        <div class="ref-content">
+          <div class="ref-authors">Bachrach LK, Gordon CM. Bone Densitometry in Children and Adolescents.</div>
+          <div class="ref-journal"><span class="journal-hl">Pediatrics.</span> 2016;138(4):e20162398.</div>
+        </div>
+      </li>
+
+      <li class="ref-item">
+        <div class="ref-num">12</div>
+        <div class="ref-content">
+          <div class="ref-authors">Madhuchani D, Seneviratne SN, Ward LM. Bone Health in Childhood and Adolescence: An Overview on Dual-Energy X-Ray Absorptiometry Scanning, Fracture Surveillance and Bisphosphonate Therapy for Low-Middle-Income Countries.</div>
+          <div class="ref-journal"><span class="journal-hl">Frontiers in Endocrinology.</span> 2023;14:1082413.</div>
+        </div>
+      </li>
+
+      <li class="ref-item">
+        <div class="ref-num">13</div>
+        <div class="ref-content">
+          <div class="ref-authors">Ward LM, Bakhamis SA, Koujok K. Approach to the Pediatric Patient With Glucocorticoid-Induced Osteoporosis.</div>
+          <div class="ref-journal"><span class="journal-hl">The Journal of Clinical Endocrinology and Metabolism.</span> 2025;110(2):572–591.</div>
+        </div>
+      </li>
+
+      <li class="ref-item">
+        <div class="ref-num">14</div>
+        <div class="ref-content">
+          <div class="ref-authors">Ward LM. Glucocorticoid-Induced Osteoporosis: Why Kids Are Different.</div>
+          <div class="ref-journal"><span class="journal-hl">Frontiers in Endocrinology.</span> 2020;11:576.</div>
+        </div>
+      </li>
+
+    </ul>
+  </div>
+
+  <!-- ─── 섹션 4 ─── -->
+  <div class="section">
+    <div class="section-header s4">
+      🤖 슬라이드 12 &nbsp;·&nbsp; 소아 골건강 AI 세 가지 핵심 분야
+    </div>
+    <ul class="ref-list">
+
+      <li class="ref-item">
+        <div class="ref-num">15</div>
+        <div class="ref-content">
+          <div class="ref-authors">Offiah AC. Current and Emerging Artificial Intelligence Applications for Pediatric Musculoskeletal Radiology.</div>
+          <div class="ref-journal"><span class="journal-hl">Pediatric Radiology.</span> 2022;52(11):2149–2158.</div>
+        </div>
+      </li>
+
+      <li class="ref-item">
+        <div class="ref-num">16</div>
+        <div class="ref-content">
+          <div class="ref-authors">Simoni P, Francavilla M, Omoumi P, et al. Current Applications and Challenges of Artificial Intelligence Applied to Diagnostics in Pediatric Musculoskeletal Imaging.</div>
+          <div class="ref-journal"><span class="journal-hl">Pediatric Radiology.</span> 2026.</div>
+          <a class="ref-doi" href="https://doi.org/10.1007/s00247-026-06561-x" target="_blank">doi: 10.1007/s00247-026-06561-x</a>
+        </div>
+      </li>
+
+    </ul>
+  </div>
+
+  <!-- ─── 섹션 5 ─── -->
+  <div class="section">
+    <div class="section-header s5">
+      📡 슬라이드 13–14 &nbsp;·&nbsp; X-ray 골밀도 예측 AI (연자 연구)
+    </div>
+    <ul class="ref-list">
+
+      <li class="ref-item">
+        <div class="ref-num">17</div>
+        <div class="ref-content">
+          <div class="ref-authors">Choi JW, Ryu YJ, Cheon JE, et al. Deep Learning-Based Bone Mineral Density Prediction Using Pediatric Chest Radiographs: A Multicenter Feasibility Study.</div>
+          <div class="ref-journal"><span class="journal-hl">Radiology.</span> 2026;319(1):e252761.</div>
+          <span class="slide-tag">슬라이드 13 · 흉부 X-ray</span>
+        </div>
+      </li>
+
+      <li class="ref-item">
+        <div class="ref-num">18</div>
+        <div class="ref-content">
+          <div class="ref-authors"><span class="author-hl">Hong J</span>, Sung H, Choi JO, et al. A Prediction Model of Pediatric Bone Density From Plain Spine Radiographs Using Deep Learning.</div>
+          <div class="ref-journal"><span class="journal-hl">Scientific Reports.</span> 2025;15(1):13039.</div>
+          <span class="slide-tag">슬라이드 14 · 척추 X-ray · 연자 연구 ★</span>
+        </div>
+      </li>
+
+    </ul>
+  </div>
+
+  <!-- ─── 섹션 6 ─── -->
+  <div class="section">
+    <div class="section-header s6">
+      ⏱️ 슬라이드 20 &nbsp;·&nbsp; 골연령 평가 AI
+    </div>
+    <ul class="ref-list">
+
+      <li class="ref-item">
+        <div class="ref-num">21</div>
+        <div class="ref-content">
+          <div class="ref-authors">Offiah AC. Current and Emerging Artificial Intelligence Applications for Pediatric Musculoskeletal Radiology.</div>
+          <div class="ref-journal"><span class="journal-hl">Pediatric Radiology.</span> 2022;52(11):2149–2158.</div>
+        </div>
+      </li>
+
+      <li class="ref-item">
+        <div class="ref-num">22</div>
+        <div class="ref-content">
+          <div class="ref-authors">Marinelli L, Lo Mastro A, Grassi F, et al. Proof-of-Concept Comparison of an Artificial Intelligence-Based Bone Age Assessment Tool With Greulich-Pyle and Tanner-Whitehouse Version 2 Methods in a Pediatric Cohort.</div>
+          <div class="ref-journal"><span class="journal-hl">Pediatric Radiology.</span> 2025.</div>
+          <a class="ref-doi" href="https://doi.org/10.1007/s00247-025-06405-0" target="_blank">doi: 10.1007/s00247-025-06405-0</a>
+        </div>
+      </li>
+
+      <li class="ref-item">
+        <div class="ref-num">23</div>
+        <div class="ref-content">
+          <div class="ref-authors">Hai P, Bin Z, Kesheng L, Cong L, Fei X. Lightweight Deep Learning System for Automated Bone Age Assessment in Chinese Children: Enhancing Clinical Efficiency and Diagnostic Accuracy.</div>
+          <div class="ref-journal"><span class="journal-hl">Frontiers in Endocrinology.</span> 2025;16:1604133.</div>
+        </div>
+      </li>
+
+      <li class="ref-item">
+        <div class="ref-num">24</div>
+        <div class="ref-content">
+          <div class="ref-authors">Beheshtian E, Putman K, Santomartino SM, Parekh VS, Yi PH. Generalizability and Bias in a Deep Learning Pediatric Bone Age Prediction Model Using Hand Radiographs.</div>
+          <div class="ref-journal"><span class="journal-hl">Radiology.</span> 2023;306(2):e220505.</div>
+        </div>
+      </li>
+
+      <li class="ref-item">
+        <div class="ref-num">25</div>
+        <div class="ref-content">
+          <div class="ref-authors">Gräfe D, Beeskow AB, Pfäffle R, Rosolowski M, Chung TS, DiFranco MD. Automated Bone Age Assessment in a German Pediatric Cohort: Agreement Between an Artificial Intelligence Software and the Manual Greulich and Pyle Method.</div>
+          <div class="ref-journal"><span class="journal-hl">European Radiology.</span> 2024;34(7):4407–4413.</div>
+          <a class="ref-doi" href="https://doi.org/10.1007/s00330-023-10543-0" target="_blank">doi: 10.1007/s00330-023-10543-0</a>
+        </div>
+      </li>
+
+    </ul>
+  </div>
+
+  <!-- ─── 섹션 7 ─── -->
+  <div class="section">
+    <div class="section-header s7">
+      🔬 슬라이드 22·24–25 &nbsp;·&nbsp; 골절 감지 AI · 기타 근골격계 AI
+    </div>
+    <ul class="ref-list">
+
+      <li class="ref-item">
+        <div class="ref-num">26</div>
+        <div class="ref-content">
+          <div class="ref-authors">Simoni P, Francavilla M, Omoumi P, et al. Current Applications and Challenges of Artificial Intelligence Applied to Diagnostics in Pediatric Musculoskeletal Imaging.</div>
+          <div class="ref-journal"><span class="journal-hl">Pediatric Radiology.</span> 2026.</div>
+          <a class="ref-doi" href="https://doi.org/10.1007/s00247-026-06561-x" target="_blank">doi: 10.1007/s00247-026-06561-x</a>
+          <span class="slide-tag">슬라이드 22·25</span>
+        </div>
+      </li>
+
+      <li class="ref-item">
+        <div class="ref-num">27</div>
+        <div class="ref-content">
+          <div class="ref-authors">Zheng Q, Shellikeri S, Huang H, Hwang M, Sze RW. Deep Learning Measurement of Leg Length Discrepancy in Children Based on Radiographs.</div>
+          <div class="ref-journal"><span class="journal-hl">Radiology.</span> 2020;296(1):152–158.</div>
+          <a class="ref-doi" href="https://doi.org/10.1148/radiol.2020192003" target="_blank">doi: 10.1148/radiol.2020192003</a>
+          <span class="slide-tag">슬라이드 25 · 하지길이</span>
+        </div>
+      </li>
+
+      <li class="ref-item">
+        <div class="ref-num">28</div>
+        <div class="ref-content">
+          <div class="ref-authors">Zhang SC, Sun J, Liu CB, Fang JH, Xie HT, Ning B. Clinical Application of Artificial Intelligence-Assisted Diagnosis Using Anteroposterior Pelvic Radiographs in Children With Developmental Dysplasia of the Hip.</div>
+          <div class="ref-journal"><span class="journal-hl">Bone &amp; Joint Journal.</span> 2020;102-B(11):1574–1581.</div>
+          <a class="ref-doi" href="https://doi.org/10.1302/0301-620X.102B11.BJJ-2020-0712.R2" target="_blank">doi: 10.1302/0301-620X.102B11.BJJ-2020-0712.R2</a>
+          <span class="slide-tag">슬라이드 25 · DDH</span>
+        </div>
+      </li>
+
+      <li class="ref-item">
+        <div class="ref-num">29</div>
+        <div class="ref-content">
+          <div class="ref-authors">Jaremko JL, et al. AI Aided Workflow for Hip Dysplasia Screening Using Ultrasound in Primary Care Clinics.</div>
+          <div class="ref-journal"><span class="journal-hl">Scientific Reports.</span> 2023.</div>
+          <span class="slide-tag">슬라이드 25 · DDH</span>
+        </div>
+      </li>
+
+    </ul>
+  </div>
+
+  <!-- ─── 섹션 8 ─── -->
+  <div class="section">
+    <div class="section-header s8">
+      ⚠️ 슬라이드 28 &nbsp;·&nbsp; 현재의 한계 및 향후 연구 방향
+    </div>
+    <ul class="ref-list">
+
+      <li class="ref-item">
+        <div class="ref-num">30</div>
+        <div class="ref-content">
+          <div class="ref-authors">Mäkitie O. Causes, Mechanisms and Management of Paediatric Osteoporosis.</div>
+          <div class="ref-journal"><span class="journal-hl">Nature Reviews Rheumatology.</span> 2013;9(8):465–475.</div>
+        </div>
+      </li>
+
+      <li class="ref-item">
+        <div class="ref-num">31</div>
+        <div class="ref-content">
+          <div class="ref-authors">Saraff V, Högler W. Osteoporosis in Children: Diagnosis and Management.</div>
+          <div class="ref-journal"><span class="journal-hl">European Journal of Endocrinology.</span> 2015;173(6):R185–197.</div>
+        </div>
+      </li>
+
+      <li class="ref-item">
+        <div class="ref-num">32</div>
+        <div class="ref-content">
+          <div class="ref-authors">Cannalire G, Biasucci G, Bertolini L, et al. Osteoporosis and Bone Fragility in Children: Diagnostic and Treatment Strategies.</div>
+          <div class="ref-journal"><span class="journal-hl">Journal of Clinical Medicine.</span> 2024;13(16):4951.</div>
+        </div>
+      </li>
+
+    </ul>
+  </div>
+
+  <!-- ─── 섹션 9 ─── -->
+  <div class="section">
+    <div class="section-header s1">
+      🔗 슬라이드 29 &nbsp;·&nbsp; 연합학습 (Federated Learning)
+    </div>
+    <ul class="ref-list">
+
+      <li class="ref-item">
+        <div class="ref-num">33</div>
+        <div class="ref-content">
+          <div class="ref-authors">Sheller MJ, Edwards B, Reina GA, et al. Federated Learning in Medicine: Facilitating Multi-Institutional Collaborations Without Sharing Patient Data.</div>
+          <div class="ref-journal"><span class="journal-hl">Scientific Reports.</span> 2020.</div>
+        </div>
+      </li>
+
+      <li class="ref-item">
+        <div class="ref-num">34</div>
+        <div class="ref-content">
+          <div class="ref-authors">Moshawrab M, Adda M, Bouzouane A, Ibrahim H, Raad A. Reviewing Federated Machine Learning and Its Use in Diseases Prediction.</div>
+          <div class="ref-journal"><span class="journal-hl">Sensors (Basel).</span> 2023.</div>
+        </div>
+      </li>
+
+      <li class="ref-item">
+        <div class="ref-num">35</div>
+        <div class="ref-content">
+          <div class="ref-authors">Bakas S, Li X, Shah P, Roth HR. Federated Learning in Healthcare: From Research to Real-World Deployment.</div>
+          <div class="ref-journal"><span class="journal-hl">Annual Review of Biomedical Engineering.</span> 2026.</div>
+        </div>
+      </li>
+
+      <li class="ref-item">
+        <div class="ref-num">36</div>
+        <div class="ref-content">
+          <div class="ref-authors">Aouedi O, Sacco A, Piamrat K, Marchetto G. Handling Privacy-Sensitive Medical Data With Federated Learning: Challenges and Future Directions.</div>
+          <div class="ref-journal"><span class="journal-hl">IEEE Journal of Biomedical and Health Informatics.</span> 2023.</div>
+        </div>
+      </li>
+
+      <li class="ref-item">
+        <div class="ref-num">37</div>
+        <div class="ref-content">
+          <div class="ref-authors">Gu X, Sabrina F, Fan Z, Sohail S. A Review of Privacy Enhancement Methods for Federated Learning in Healthcare Systems.</div>
+          <div class="ref-journal"><span class="journal-hl">International Journal of Environmental Research and Public Health.</span> 2023.</div>
+        </div>
+      </li>
+
+      <li class="ref-item">
+        <div class="ref-num">38</div>
+        <div class="ref-content">
+          <div class="ref-authors">Hasan MR, Ahmed MI, Saha S, et al. Multi-Modal Federated Learning With Differential Privacy for Privacy-Preserving Healthcare AI.</div>
+          <div class="ref-journal"><span class="journal-hl">Scientific Reports.</span> 2026.</div>
+        </div>
+      </li>
+
+    </ul>
+  </div>
+
+  <div class="footer">
+    총 38개 참고문헌 · 슬라이드 4–29 · 뇌성마비 심포지엄 강의자료
+  </div>
+
+</div>
+</body>
+</html>
